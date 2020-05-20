@@ -50,9 +50,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Rr-HU-zt7"/>
-                    <connections>
-                        <outlet property="RecommendationLabel" destination="W4R-g7-FEV" id="Kzl-xd-vA2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,7 +71,7 @@
                                     <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Randomize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q1W-pS-DvV"/>
+                                    <action selector="Randomize:" destination="YTm-WW-GIW" eventType="touchUpInside" id="iqY-w8-JeF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommendation: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Cn-zV-wfQ" userLabel="Recommendation:">
@@ -105,6 +102,9 @@
                         <viewLayoutGuide key="safeArea" id="eGT-3g-qLf"/>
                     </view>
                     <navigationItem key="navigationItem" id="pw3-lf-mD4"/>
+                    <connections>
+                        <outlet property="RecommendationLabel" destination="W4R-g7-FEV" id="EMH-Me-qUB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Raf-nh-YtX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
